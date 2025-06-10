@@ -1,8 +1,11 @@
 # ¿Donde esta el Dado?
 ### ![image](https://github.com/user-attachments/assets/4b15bf77-8bab-48a8-8c37-7ac1820443fb)
+### ![image](https://github.com/user-attachments/assets/8b330fe4-7ba1-4e33-89c4-5dbd9734601f)
+### ![image](https://github.com/user-attachments/assets/84e11d48-2ba2-448d-a820-26605adfeeca)
 
 ## Este proyecto se a creado con HTML5, CSS3, JS
-## Es un juego sencillo en el que tienes que pulsar uno de los 3 cubos y tienes que encontrar el dado que estara dentro de uno de ellos, al pulsarlo se activara un mensaje avisandote de si lo encontrastes o no
+## Es un juego sencillo en el que tienes que pulsar uno de los 3 cubos y tienes que encontrar el dado que estara dentro de uno de ellos, al pulsarlo 
+## se activara un mensaje avisandote de si lo encontrastes o no
 
 ## Para emepezar cree una estructura HTML5 en el que cre un titulo y un texto y 3 divs que son los cubos y otro div para los mensajes
 ### ![image](https://github.com/user-attachments/assets/c0a89c58-dc5f-4505-b9ef-f6bf464f9aac)
