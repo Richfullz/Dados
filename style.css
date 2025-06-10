@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Savate:ital,wght@0,200..900;1,200..900&display=swap");
+
+body {
+  font-family: "Savate", sans-serif;
+  text-align: center;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  margin: 0;
+  padding: 20px;
+}
+
+#contenedor-cubos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px 0;
+}
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+p {
+  font-size: 25px;
+  font-weight: 400;
+}
+.cubo {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  transition: background 0.3s;
+}
+
+.cubo:hover {
+  background: #ff5733;
+  border: 1px groove #000;
+  transform: scale(1.05);
+}
+
+.color1 {
+  background: #581845;
+}
+.color2 {
+  background: #c70039;
+}
+.color3 {
+  background: #daf7a6;
+}
+
+#mensaje {
+  font-size: 24px;
+  padding: 2rem;
+  margin: 0px auto;
+  min-height: 30px;
+  color: #900c3f;
+  background: #ffc300;
+  width: 35%;
+  border-radius: 15px;
+}
+
+.cubo.oculto {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s;
+}
+
+.cubo.sin-clic {
+  pointer-events: none;
+}
